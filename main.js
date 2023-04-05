@@ -1,7 +1,7 @@
-document.body.addEventListener( "click" , showcolor );
+document.addEventListener( "click" , showcolor );
 
 function showcolor()
 {
-    document.body.style.backgroundColor = "red";
+    document.style.backgroundColor = "red";
 }
 
