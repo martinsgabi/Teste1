@@ -4,11 +4,11 @@ document.getElementById( "botao" ).addEventListener( "click" , exibenome );
 
 document.getElementById( "btn-soma" ).addEventListener( "click" , soma );
 
-document.getElementById( "btn-soma" ).addEventListener( "click" , subtração );
+document.getElementById( "btn-subtração" ).addEventListener( "click" , subtração );
 
-document.getElementById( "btn-soma" ).addEventListener( "click" , multiplicar );
+document.getElementById( "btn-multiplicação" ).addEventListener( "click" , multiplicar );
 
-document.getElementById( "btn-soma" ).addEventListener( "click" , dividir );
+document.getElementById( "btn-divisão" ).addEventListener( "click" , dividir );
 
 function showcolor()
 {
