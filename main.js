@@ -20,5 +20,5 @@ function soma()
 {
     let num1 = document.getElementById( "num1" ).value;
     let num2 = document.getElementById( "num2" ).value;
-    document.getElementById( "resultado1" ).innerHTML = num1 + num2;
+    document.getElementById( "resultado1" ).innerHTML = parseFloat(num1) + parseFloat(num2);
 }
