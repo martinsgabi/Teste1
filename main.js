@@ -2,7 +2,7 @@ document.addEventListener( "click" , showcolor );
 
 document.getElementById( "botao" ).addEventListener( "click" , exibenome );
 
-document.getElementById( "btn-soma" ).addEventListener( "click" , showresultado );
+document.getElementById( "btn-soma" ).addEventListener( "click" , soma );
 
 function showcolor()
 {
@@ -16,8 +16,9 @@ function exibenome()
     document.getElementById( "nome" ).value = "";
 }
 
-function showresultado()
+function soma()
 {
-    let resultado = document.getElementById( "number" ).value;
-    document.getElementById( "resultado1" ).innerHTML = "=" + resultado;
+    let num1 = document.getElementById( "num1" ).value;
+    let num2 = document.getElementById( "num2" ).value;
+    document.getElementById( "resultado1" ).innerHTML = num1 + num2;
 }
